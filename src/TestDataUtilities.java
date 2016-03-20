@@ -306,7 +306,7 @@ public class TestDataUtilities extends DataUtilities {
 		assertSame(expected, actual);	
 	}
 	 
-	/*Test Case 1*/
+	/*Test Case 2*/
 	@Test(expected= InvalidParameterException.class)
 	public void testGetCumulativePercentagesInvalid(){
 		KeyedValues expected = null; 
