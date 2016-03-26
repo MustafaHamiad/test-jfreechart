@@ -12,8 +12,6 @@ public class TestRange extends Range {
 	public TestRange(){
 		super(-1, 1);
 	}
-
-
 	/**
 	 * 
 	 */
@@ -36,8 +34,6 @@ public class TestRange extends Range {
 	@After
 	public void tearDown() throws Exception {
 	}
-
-	
 	 /** combine **/
 	/* test case 1 */
 	@Test
@@ -116,7 +112,6 @@ public class TestRange extends Range {
 		assertTrue(range.intersects(5.0,5.0));
 	}
 	
-	
 	/** getCentralValue **/
 	/* test case 1 */
 	@Test
@@ -132,5 +127,4 @@ public class TestRange extends Range {
 		double centralValue = range.getCentralValue();
 		assertEquals(-7.9, centralValue, .000000001d);
 	}
-	
 }
